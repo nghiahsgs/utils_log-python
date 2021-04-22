@@ -9,8 +9,8 @@ def print_log(*para):
     print(content)
     logging.info(content)
 
-
-# ham goc
-print(1,2,'nghiahsgs')
-# ham thay the
-print_log(1,2,'nghiahsgs')
+if __name__ =="__main__":
+    # ham goc
+    print(1,2,'nghiahsgs')
+    # ham thay the
+    print_log(1,2,'nghiahsgs')
